@@ -1,0 +1,28 @@
+{
+  "name": "locadora-veiculos",
+  "version": "1.0.0",
+  "description": "Sistema de Locação de Veículos com Azure MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "locadora",
+    "azure",
+    "mysql"
+  ],
+  "author": "Guilherme Lopreti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
