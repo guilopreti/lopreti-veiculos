@@ -1,5 +1,4 @@
-// URL da API (ajuste conforme necessário)
-const API_URL = ""; // Vazio porque está no mesmo servidor
+const API_URL = "";
 
 let editandoVeiculo = null;
 let editandoCliente = null;
@@ -589,3 +588,4 @@ function editarMeusDados(cliente) {
 window.onload = function () {
   listarVeiculos();
 };
+
